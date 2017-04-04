@@ -394,6 +394,7 @@
 				16531D0A1E93850F002C5D5D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		16531D0B1E93850F002C5D5D /* Build configuration list for PBXNativeTarget "openLibraryTestDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -402,6 +403,7 @@
 				16531D0D1E93850F002C5D5D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
