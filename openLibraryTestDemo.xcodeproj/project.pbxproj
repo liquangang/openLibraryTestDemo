@@ -10,6 +10,8 @@
 		16531CFE1E93850E002C5D5D /* openLibraryTestDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16531CF41E93850E002C5D5D /* openLibraryTestDemo.framework */; };
 		16531D031E93850E002C5D5D /* openLibraryTestDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 16531D021E93850E002C5D5D /* openLibraryTestDemoTests.m */; };
 		16531D051E93850F002C5D5D /* openLibraryTestDemo.h in Headers */ = {isa = PBXBuildFile; fileRef = 16531CF71E93850E002C5D5D /* openLibraryTestDemo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		16531D101E93852A002C5D5D /* TestObj.h in Headers */ = {isa = PBXBuildFile; fileRef = 16531D0E1E93852A002C5D5D /* TestObj.h */; };
+		16531D111E93852A002C5D5D /* TestObj.m in Sources */ = {isa = PBXBuildFile; fileRef = 16531D0F1E93852A002C5D5D /* TestObj.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +31,8 @@
 		16531CFD1E93850E002C5D5D /* openLibraryTestDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = openLibraryTestDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		16531D021E93850E002C5D5D /* openLibraryTestDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = openLibraryTestDemoTests.m; sourceTree = "<group>"; };
 		16531D041E93850E002C5D5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16531D0E1E93852A002C5D5D /* TestObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestObj.h; sourceTree = "<group>"; };
+		16531D0F1E93852A002C5D5D /* TestObj.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestObj.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +77,8 @@
 			children = (
 				16531CF71E93850E002C5D5D /* openLibraryTestDemo.h */,
 				16531CF81E93850E002C5D5D /* Info.plist */,
+				16531D0E1E93852A002C5D5D /* TestObj.h */,
+				16531D0F1E93852A002C5D5D /* TestObj.m */,
 			);
 			path = openLibraryTestDemo;
 			sourceTree = "<group>";
@@ -93,6 +99,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16531D101E93852A002C5D5D /* TestObj.h in Headers */,
 				16531D051E93850F002C5D5D /* openLibraryTestDemo.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -195,6 +202,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16531D111E93852A002C5D5D /* TestObj.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
