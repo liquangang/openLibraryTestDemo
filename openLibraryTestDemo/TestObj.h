@@ -16,4 +16,6 @@
 
 - (void)testThirdMethod;
 
+- (void)testFouthMethod;
+
 @end

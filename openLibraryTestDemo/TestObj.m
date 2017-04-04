@@ -28,4 +28,10 @@
     NSLog(@"我是测试小方法3");
 }
 
+- (void)testFouthMethod{
+    NSLog(@"我是测试小方法4");
+    NSLog(@"我是测试小方法4");
+    NSLog(@"我是测试小方法4");
+}
+
 @end
